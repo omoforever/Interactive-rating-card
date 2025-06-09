@@ -1,3 +1,21 @@
+ :root {
+     --primary: hsl(25, 97%, 53%);
+     --white: hsl(0, 100%, 100%);
+     --grey500: hsl(217, 12%, 63%);
+     --grey900: hsl(213, 19%, 18%);
+     --grey950: hsl(216, 12%, 8%);
+ }
+
+ *,
+ html {
+     box-sizing: border-box;
+ }
+
+ body {
+     max-width: 400px;
+     margin: 5rem auto;
+ }
+
  .attribution {
      font-size: 11px;
      text-align: center;
@@ -22,27 +40,120 @@
  }
 
  .rating-card {
-     border: 1px solid red;
+     border-radius: 1rem;
+     background-color: var(--grey900);
+     margin-bottom: 1rem;
  }
 
  .submitted-card {
-     border: 1px solid red;
+     border-radius: 1rem;
+     background-color: var(--grey900);
+     color: var(--white);
  }
 
  .rating-state {
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: start;
+     align-content: center;
      gap: 0.5rem;
-     padding: 1rem;
+     padding: 2em;
+
+ }
+
+ .rating-question>h1 {
+     color: var(--white);
+     font-family: 'Overpass', sans-serif;
+     font-weight: 400;
+ }
+
+ .rating-question>p {
+     color: var(--grey500);
+     font-family: 'Overpass', sans-serif;
+     font-weight: 400;
+ }
+
+ .rating-numbers {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 1rem;
+ }
+
+ .rating-numbers>button {
+     width: 3rem;
+     height: 3rem;
+     border-radius: 50%;
+     background-color: var(--grey900);
+     color: var(--grey500);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     font-family: 'Overpass', sans-serif;
+     font-size: 1rem;
+ }
+
+ .rating-state>button {
+     border-radius: 1rem;
+     padding: 0.4rem;
+     background-color: var(--primary);
+     font-family: 'Overpass', sans-serif;
+     font-weight: 400;
+     cursor: pointer;
+ }
+
+ .rating-numbers>button:hover {
+     background-color: var(--primary);
+     color: var(--grey950);
+ }
+
+ .rating-state>button:hover {
+     background-color: var(--white);
+     color: var(--grey950);
+ }
+
+ .rating-numbers>button:active {
+     background-color: var(--white);
+     color: var(--grey950);
+ }
+
+ .star-icon-container {
+     background-color: var(--grey900);
+     border-radius: 10rem;
+     padding: 0.3rem;
  }
 
  .icon-image {
      width: 1.3rem;
  }
 
- body {
-     max-width: 600px;
-     margin: 5rem auto;
+ .thankyou-icon {
+     width: 8rem;
+ }
+
+ .thankyou-state {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+ }
+
+ .rating-greeting {
+     text-align: center;
+     width: 75%;
+     font-family: 'Overpass', sans-serif;
+     font-weight: 400;
+     font-size: smaller;
+ }
+
+ .rating-greeting>p {
+     font-size: 0.9rem;
+     font-weight: 100;
+ }
+
+ #user-selection>p {
+     color: var(--primary);
+     background-color: var(--grey900);
+     text-align: center;
  }
