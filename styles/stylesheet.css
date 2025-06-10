@@ -117,6 +117,13 @@
      color: var(--grey950);
  }
 
+ .rating-btn.active {
+     background-color: var(--primary);
+     color: white;
+     border-color: var(--primary);
+     transform: scale(1.05);
+ }
+
  .star-icon-container {
      background-color: var(--grey900);
      border-radius: 10rem;
