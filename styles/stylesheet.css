@@ -43,6 +43,7 @@
      border-radius: 1rem;
      background-color: var(--grey900);
      margin-bottom: 1rem;
+     padding: 1rem;
  }
 
  .submitted-card {
