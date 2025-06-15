@@ -1,42 +1,41 @@
-Interactive Rating Component
-A responsive and accessible rating component built as part of a Frontend Mentor challenge. This project allows users to select a numerical rating and view a confirmation state upon submission.
+# Interactive Rating Component
 
-Overview
+A responsive and accessible rating component built as part of a [Frontend Mentor](https://www.frontendmentor.io) challenge. This project allows users to select a numerical rating and view a confirmation state upon submission.
+
+## Overview
+
 This component includes:
 
-A 1–5 rating selection interface
+- A 1–5 rating selection interface  
+- A thank-you card shown after rating submission  
+- Hover and focus states for all interactive elements  
+- Clean, responsive layout matching the design specification  
 
-A thank-you card shown after rating submission
+The goal was to focus on **interactive UI behavior**, **component state management**, and **accessible styling**.
 
-Hover and focus states for all interactive elements
+## Built With
 
-Clean, responsive layout matching the design specification
+- HTML5  
+- CSS3  
+- JavaScript (or React if applicable — adjust to match your implementation)
 
-The goal was to focus on interactive UI behavior, component state management, and accessible styling.
+## What I Learned
 
-Built With
-HTML5
+- Managing UI state transitions (e.g. from rating screen to thank-you screen)  
+- Implementing accessible hover and focus interactions  
+- Structuring components for clarity and reuse  
+- Styling for responsive layouts and consistent spacing
 
-CSS3
+## Live Preview
 
-JavaScript (or React if you used it – adjust accordingly)
-
-What I Learned
-Managing UI state transitions (e.g. from rating screen to thank-you screen)
-
-Implementing accessible hover and focus interactions
-
-Structuring components for clarity and reuse
-
-Styling for responsive layouts and consistent spacing
-
-Live Preview
-View the live site
+[View the live site](#)  
 TODO
 
-Screenshot
-(Optional: Add a screenshot to showcase the final component)
+## Screenshot
 
-Author
-Omar
-Challenge from Frontend Mentor
+*Optional: Add a screenshot to showcase the final component*
+
+## Author
+
+**Omar**  
+Challenge from [Frontend Mentor](https://www.frontendmentor.io)
